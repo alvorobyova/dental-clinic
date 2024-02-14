@@ -1,0 +1,221 @@
+@media only screen and (min-width: 1921px) {
+    .reserve {
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .menu__item:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .about__item {
+        max-width: 450px;
+        margin: 15px;
+    }
+
+    .about__item > img {
+        max-width: 100%;
+    }
+
+    .about .container {
+        justify-content: center;
+    }
+
+    .services__title, .doctors__title {
+        text-align: center;
+    }
+
+    .service__items {
+        justify-content: center;
+    }
+
+    .service__item.bg {
+        background: #fff;
+    }
+    .service__item.bg2 {
+        background: #fbfcff;
+    }
+
+    .doctors__images img {
+        max-width: 220px;
+    }
+
+    .doctors__images {
+        max-width: 950px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .about {
+        padding: 80px 0;
+    }
+
+    .about__title {
+        margin-bottom: 30px;
+    }
+
+    .about__text:last-child {
+        margin-top: 25px;
+    }
+
+    .about__item:last-child {
+        margin-top: 30px;
+    }
+
+    .doctors {
+        padding: 80px 0;
+    }
+
+    .doctors__title {
+        margin-bottom: 30px;
+    }
+
+    .doctors__images {
+        max-width: 500px;
+        flex-wrap: wrap;
+    }
+
+    .doctors__images img {
+        margin: 15px;
+    }
+
+
+    .footer .container {
+        max-width: 470px;
+        flex-wrap: wrap;
+    }
+
+    .footer__phone {
+        order: 2;
+    }
+
+    .footer__time {
+        order: 3;
+        margin-top: 20px;
+
+    }
+
+    .footer__address {
+        order: 4;
+        margin-top: 20px;
+
+    }
+}
+
+@media only screen and (max-width: 915px) {
+    .service__item.bg2 {
+        background: #fff;
+    }
+    .service__item.bg3 {
+        background: #fbfcff;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header .container {
+        flex-wrap: wrap;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+
+    .menu {
+        order: 3;
+        margin-top: 10px;
+    }
+
+    .header__phone {
+        order: 2;
+    }
+
+    .main__content {
+        padding: 70px 0 150px;
+    }
+
+    .reserve__form {
+        flex-wrap: wrap;
+    }
+
+    .reserve__form input, .reserve__form button {
+        margin: 10px 0 0 0;
+    }
+
+
+    .doctors__images {
+        justify-content: center;
+    }
+
+    .footer .container {
+        max-width: 300px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    .footer__logo, .footer__phone, .footer__time, .footer__address {
+        margin: 20px 0 0 0;
+        flex: 1 100%;
+    }
+}
+
+@media only screen and (max-width: 623px) {
+    .service__item.bg3 {
+        background: #fff;
+    }
+    .service__item.bg4 {
+        background: #fbfcff;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    .header {
+        text-align: center;
+    }
+
+    .header .container {
+        justify-content: center;
+    }
+
+    .header__logo {
+        flex: 1 100%;
+    }
+
+    .menu__list {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .menu__item {
+        line-height: 28px;
+        padding: 5px;
+    }
+
+    .header__phone {
+        margin-top: 20px;
+    }
+
+    .main__title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .main__item {
+        font-size: 16px;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .about__quote-image {
+        display: none;
+    }
+
+
+
+}
